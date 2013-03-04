@@ -1,0 +1,24 @@
+.board {
+  border: 5px solid red;
+}
+
+td#c0, td#c1, td#c2, td#c3, td#c4, td#c5 {
+    border-bottom: 2px solid black;
+}
+
+td#c0, td#c1, td#c3, td#c4, td#c6, td#c7 {
+    border-right: 2px solid black;
+}
+
+table#board td {
+    margin: 0;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+    font: bold 36px sans-serif;
+}
+
+.gameover, .reset, .winner {
+  display: none;
+}
